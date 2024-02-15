@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card {
+    width: 40%;
+    text-align: center;
+    background-color: gold;
+    padding: 20px;
+    margin: 30px auto;
+}
+.card img {
+    margin: 20px 0;
+}
+.card button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    color: gold;
+    cursor: pointer;
+}
