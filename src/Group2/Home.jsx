@@ -17,6 +17,9 @@ const Home = () => {
 
     return (
         <>
+        <header>
+            <h1 className='headerText'>IT-Food</h1>
+        </header>
            {data.map(db => (
                 <div className='card'>
                     <h1>{db.strMeal}</h1>
@@ -25,6 +28,10 @@ const Home = () => {
                     <button onClick={Api}>Next</button>
                 </div>
            ))}
+
+           <footer>
+            <h1>IT-Food</h1>
+           </footer>
         </>
     );
 };

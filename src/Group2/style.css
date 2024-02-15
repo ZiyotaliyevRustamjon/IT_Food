@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body {
+    background-color: rgba(0, 0, 255, 0.555);
+}
 .card {
     width: 40%;
     text-align: center;
@@ -23,4 +26,15 @@
     margin-top: 30px;
     color: gold;
     cursor: pointer;
+}
+
+.headerText {
+    text-align: center;
+    background-color: gold;
+    padding: 10px;
+}
+footer h1 {
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
 }
